@@ -66,3 +66,10 @@ I believe that real-world experience combined with dedicated, continuous learnin
 - Tcpdump & Wireshark
 - IDS & SIEM
 - Automation with Python
+
+
+## What's Next?
+
+I am pursuing CompTIA [Security+](https://www.comptia.org/certifications/security) and [CySA+](https://www.comptia.org/certifications/cybersecurity-analyst) Certifications, along with CISCO [CyberOps Associate](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/cyberops/cyberops-associate/index.html) certification, which I plan to achieve by 2025.
+
+Currently, I'm engaged in various Cybersecurity missions like [OverTheWire](https://overthewire.org/wargames/), [TryHackMe](https://tryhackme.com), [HackThisSite](https://hackthissite.org), and [HackerOne](https://www.hackerone.com), with plans to expand my portfolio soon. As my portfolio is always evolving with new skills and projects, I encourage you to check back regularly for updates. I'll be continuously adding fresh content and showcasing my latest achievements. Thank you for visiting, and I look forward to sharing more with you in the future!
