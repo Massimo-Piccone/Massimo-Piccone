@@ -1,7 +1,4 @@
 # Hello, I'm Massimo.
-<a href="https://www.linkedin.com/in/massimo-piccone-401164121" target="_blank">
-  <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?&style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn Profile" />
-</a>
 
 Driven by a passion for problem-solving and innovation, I began my career as an entry specialist, mastering the art of bypassing and securing access in the physical domain. Now, I’m transitioning into cybersecurity to continue developing and exploring my passions and talents. Through this portfolio, I aim to demonstrate my competence.
 
@@ -73,3 +70,7 @@ I believe that real-world experience combined with dedicated, continuous learnin
 I am pursuing CompTIA [Security+](https://www.comptia.org/certifications/security) and [CySA+](https://www.comptia.org/certifications/cybersecurity-analyst) Certifications, along with CISCO [CyberOps Associate](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/cyberops/cyberops-associate/index.html) certification, which I plan to achieve by 2025.
 
 Currently, I'm engaged in various Cybersecurity missions like [OverTheWire](https://overthewire.org/wargames/), [TryHackMe](https://tryhackme.com), [HackThisSite](https://hackthissite.org), and [HackerOne](https://www.hackerone.com), with plans to expand my portfolio soon. As my portfolio is always evolving with new skills and projects, I encourage you to check back regularly for updates. I'll be continuously adding fresh content and showcasing my latest achievements. Thank you for visiting, and I look forward to sharing more with you in the future!
+
+<a href="https://www.linkedin.com/in/massimo-piccone-401164121" target="_blank">
+  <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?&style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn Profile" />
+</a>
