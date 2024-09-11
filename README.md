@@ -50,6 +50,9 @@ I believe that real-world experience combined with dedicated, continuous learnin
 <a href="https://coursera.org/verify/professional-cert/9HTQ7ACNVBBV" target="_blank">
   <img src="https://img.shields.io/badge/-Google%20Cybersecurity%20-4285F4?&style=for-the-badge&logo=google&logoColor=white" alt="Google Cybersecurity Certificate" />
 </a>
+<a href="https://www.isc2.org/Certifications/CC" target="_blank">
+  <img src="https://img.shields.io/badge/-ISC2%20CC%20Certificate-00AAFF?&style=for-the-badge&logo=isc2&logoColor=white" alt="ISC2 Certified in Cybersecurity (CC)" />
+</a>
 </div>
 
 ## Projects
