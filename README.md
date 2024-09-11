@@ -15,14 +15,14 @@ I believe that real-world experience combined with dedicated, continuous learnin
 
 | Projects | Knowledge Gained | 
 | :---- |:---:|
-| [Security Risks](https://github.com/Massimo-Piccone/Massimo-Piccone/tree/ede732574c67763e6d727af3a0fcc656d61c8e7d/Google/1%20-%20Security%20Risks) | `NIST Cybersecurity Framework`, `CISSP`, `CIA triad`, `INFOSEC`, `Security Audits`, `Incident Response Playbooks`, `NIST Risk Management Framework` |
-| [Network Security](https://github.com/Massimo-Piccone/Massimo-Piccone/tree/e2626af02096cc685817b8827c515ee3e395f3ab/Google/2%20-%20Network%20Security) | `Network Architecture`, `Cloud Networks`, `Security Hardening`, `TCP/IP model`, `Network Communication`, `Network Security`| 
-| [Linux and SQL](https://github.com/Massimo-Piccone/Massimo-Piccone/tree/d86942fa6cdfa3612b63ca3806fc774bda4e5290/Google/3%20-%20Linux%20and%20SQL) | `Linux`, `Bash`, `SQL`, `Command-line Interface` | 
-| [Assets, Threats, and Vulnerabilities](https://github.com/Massimo-Piccone/Massimo-Piccone/tree/d86942fa6cdfa3612b63ca3806fc774bda4e5290/Google/4%20-%20Assets%2C%20Threats%20and%20Vulnerabilities) | `Cryptography`, `Threat Modelling Analysis`, `Vulnerability assessment`, `Authentication`, `Asset Classification`|
-| [Detection and Response](https://github.com/Massimo-Piccone/Massimo-Piccone/tree/d86942fa6cdfa3612b63ca3806fc774bda4e5290/Google/5%20-%20Detection%20and%20Response) | `Incident Journal`, `Incident Lifecycle` |
-| [Tcpdump and Wireshark](https://github.com/Massimo-Piccone/Massimo-Piccone/tree/d86942fa6cdfa3612b63ca3806fc774bda4e5290/Google/6%20-%20Tcpdump%20and%20Wireshark) | `Packet Analyzer` | 
-| [IDS and SIEM](https://github.com/Massimo-Piccone/Massimo-Piccone/tree/d86942fa6cdfa3612b63ca3806fc774bda4e5290/Google/7%20-%20IDS%20and%20SIEM) | `Security Information and Event Management (SIEM): Chronicle, Splunk`, `Intrusion Detection System (IDS): Suricata` |
-| [Automation with Python](https://github.com/Massimo-Piccone/Massimo-Piccone/tree/d86942fa6cdfa3612b63ca3806fc774bda4e5290/Google/8%20-%20Automation%20with%20Python) | `PEP 8 Style Guide`, `Python Programming`, `Computer Programming`, `Coding`| 
+| [Security Risks](https://github.com/Massimo-Piccone/Massimo-Piccone/tree/22397177fbba95b433f65722da18b8e11958f186/Google/1%20-%20Security%20Risks) | `NIST Cybersecurity Framework`, `CISSP`, `CIA triad`, `INFOSEC`, `Security Audits`, `Incident Response Playbooks`, `NIST Risk Management Framework` |
+| [Network Security](https://github.com/Massimo-Piccone/Massimo-Piccone/tree/22397177fbba95b433f65722da18b8e11958f186/Google/2%20-%20Network%20Security) | `Network Architecture`, `Cloud Networks`, `Security Hardening`, `TCP/IP model`, `Network Communication`, `Network Security`| 
+| [Linux and SQL](https://github.com/Massimo-Piccone/Massimo-Piccone/tree/22397177fbba95b433f65722da18b8e11958f186/Google/3%20-%20Linux%20and%20SQL) | `Linux`, `Bash`, `SQL`, `Command-line Interface` | 
+| [Assets, Threats, and Vulnerabilities](https://github.com/Massimo-Piccone/Massimo-Piccone/tree/22397177fbba95b433f65722da18b8e11958f186/Google/4%20-%20Assets,%20Threats%20and%20Vulnerabilities) | `Cryptography`, `Threat Modelling Analysis`, `Vulnerability assessment`, `Authentication`, `Asset Classification`|
+| [Detection and Response](https://github.com/Massimo-Piccone/Massimo-Piccone/tree/22397177fbba95b433f65722da18b8e11958f186/Google/5%20-%20Detection%20and%20Response) | `Incident Journal`, `Incident Lifecycle` |
+| [Tcpdump and Wireshark](https://github.com/Massimo-Piccone/Massimo-Piccone/tree/22397177fbba95b433f65722da18b8e11958f186/Google/6%20-%20Tcpdump%20and%20Wireshark) | `Packet Analyzer` | 
+| [IDS and SIEM](https://github.com/Massimo-Piccone/Massimo-Piccone/tree/22397177fbba95b433f65722da18b8e11958f186/Google/7%20-%20IDS%20and%20SIEM) | `Security Information and Event Management (SIEM): Chronicle, Splunk`, `Intrusion Detection System (IDS): Suricata` |
+| [Automation with Python](https://github.com/Massimo-Piccone/Massimo-Piccone/tree/22397177fbba95b433f65722da18b8e11958f186/Google/8%20-%20Automation%20with%20Python) | `PEP 8 Style Guide`, `Python Programming`, `Computer Programming`, `Coding`| 
 
 ### Tools
 
@@ -57,7 +57,7 @@ I believe that real-world experience combined with dedicated, continuous learnin
 
 ## Projects
 
-### [Google's Cybersecurity Certification](https://github.com/Massimo-Piccone/Massimo-Piccone/tree/ede732574c67763e6d727af3a0fcc656d61c8e7d/Google)
+### [Google's Cybersecurity Certification](https://github.com/Massimo-Piccone/Massimo-Piccone/tree/22397177fbba95b433f65722da18b8e11958f186/Google)
 - Security Risks
 - Network Security
 - Linux & SQL
