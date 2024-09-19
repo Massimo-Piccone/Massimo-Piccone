@@ -1,4 +1,4 @@
-# -----!-!-!-!- BEFORE USE -!-!-!-!----- 
+# ----------!-!-!-!- BEFORE USE -!-!-!-!----------
 # 1. ADD NECESSARY TIMEZONE MAPPING (pytz) (LINE 85)
 # 2. DEFINE FULL PATH TO YOUR ROSTER PDF /FILE.pdf (LINE 119)
 # 3. DEFINE FULL PATH TO CALENDAR OUTPUT FOLDER AND /FILE-NAME.ics (LINE 185)
@@ -116,7 +116,7 @@ def calculate_event_duration(rep_date, rep_time, dep_time, duration, timezone):
     return rep_datetime, total_event_duration
 
 # Extract and compact text from PDF
-pdf_path = "/FULL/PATH/TO/YOUR/PDF-FILE.pdf"  # REPLACE WITH PATH TO YOUR PDF
+pdf_path = "/Users/massimopicone/Desktop/Roster.pdf"  # REPLACE WITH PATH TO YOUR PDF
 pdf_text_content = extract_pdf_text(pdf_path)
 compacted_text = compact_text(pdf_text_content)
 
@@ -182,7 +182,7 @@ for match in matches:
     cal.add_component(recover_event)
 
 # Write the calendar to a file
-with open('TELL/IT/WHERE/TO/MAKE/THE/CALENDAR-FILE.ics', 'wb') as f:  # REPLACE WITH PATH TO DESIRED OUTPUT FOLDER AND /FILE NAME.ICS
+with open('/Users/massimopiccone/Desktop/Flights.ics', 'wb') as f:  # REPLACE WITH PATH TO DESIRED OUTPUT FOLDER AND /FILE NAME.ICS
     f.write(cal.to_ical())
 
-print("iCal file 'flight_schedule.ics' has been created.")
+print("iCal file has been created.")
