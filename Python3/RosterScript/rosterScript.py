@@ -186,3 +186,6 @@ with open('/Users/massimopiccone/Desktop/Flights.ics', 'wb') as f:  # REPLACE WI
     f.write(cal.to_ical())
 
 print("iCal file has been created.")
+
+# Paste this command into your terminal to run the script on Mac:
+# python3 /Users/YOURUSERNAME/Desktop/rosterScript.py
