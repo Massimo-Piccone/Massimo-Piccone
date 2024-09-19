@@ -370,6 +370,10 @@ iCal file 'flight_schedule.ics' has been created.
 <img width="1536" alt="Screenshot 2024-09-18 at 16 37 05" src="https://github.com/user-attachments/assets/f254e106-e170-4fbb-8e2d-7b4470579278">
 <img width="1536" alt="Screenshot 2024-09-18 at 16 34 50" src="https://github.com/user-attachments/assets/15c5f295-e3cd-462d-9d8d-1d94786fd4b9">
 
+### Notes:
+- If your roster lists flights into the next month, it will be processed as if it were in your current month.
+- This script only creates events for the current month, anything outside of that needs to be manually moved.
+
 ## Summary
 I used Python to effectively read a monthly roster PDF file and turn it into an iCalendar file with time-zone support. 
 The code has built-in redundancy such as normalizing all information, and it also includes confirmation and troubleshooting snippets to help identify potential issues.
