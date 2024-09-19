@@ -8,11 +8,11 @@ I aim to make this as 'open source' and reusable as possible. There are some sub
 To make this easier to work with, I emphasize regulating and defining the PDF output in **Step 1.** By doing this you can "easily" configure your pattern and ensure **Step 2** will function properly with minimal alterations.
 
 ## Strategy  
-This script works by identifying the departure airport and setting this as the timezone to base the event. To calculate the duration of the event we take the provided duration value (departure to arrival). the only issue is that I want the event to start the event at report time, so we find the difference between report time and departure and add this with the duration to get the full event time. 
+This script works by identifying the departure airport and setting this as the time-zone to base the event. To calculate the duration of the event we take the provided duration value (departure to arrival). The only issue is that I want the event to start the event at report time, so we find the difference between report time and departure and add this with the duration to get the full event time. 
 
 My vision for this project comprised of 3 distinct components.
 1. The script needed to scrape the PDF and process it to identify necessary information.
-2. Use this regulated information to create iCalendar events accurately in every necessary timezone.
+2. Use this regulated information to create iCalendar events accurately in every necessary time-zone.
 3. (Optional) Add reminders for preparation.
 
 ## Prerequisites:
@@ -34,7 +34,7 @@ My vision for this project comprised of 3 distinct components.
 
 
 ### 1a. Extract and standardize the information.
-I used PyPDF2 to extract and regulate the information on the PDF. I recommend following these steps to ensure the extraction is working properly on your pdf. Simply replace the complete path to your PDF file to begin.
+I used PyPDF2 to extract and regulate the information on the PDF. I recommend following these steps to ensure the extraction is working properly on your PDF. Simply replace the complete path to your PDF file to begin.
 ```python
 import PyPDF2
 
@@ -143,13 +143,13 @@ else:
 26, 16:00, SEA, 17:15, DXB, 18:30, 14:15, 230
 Found 12 matches
 ```
-## Step 2. Use this information to make a timezone-sensitive iCalendar file.
+## Step 2. Use this information to make a time-zone-sensitive iCalendar file.
 
 #### 2a) Specify the libraries I need to make this.
 - PyPDF2: for manipulating and extracting data from PDF files.
 - re: regular expressions, enabling pattern matching, searching, splitting, and replacing text within strings.
-- pytz: accurate and cross-platform timezone calculations
-- datetime: for manipulating dates and times, allowing for operations like formatting, arithmetic, and timezone handling.
+- pytz: accurate and cross-platform time-zone calculations
+- datetime: for manipulating dates and times, allowing for operations like formatting, arithmetic, and time-zone handling.
 - icalendar: used to create, parse, and manipulate iCalendar files in a standardized format.
 ```python
 import PyPDF2
@@ -182,10 +182,10 @@ def compact_text(text_data):
     compacted_text = ''.join(compacted_text.split())
     return compacted_text
 ```
-I added many time-zones to lighten any future workload. It is important to ensure the necessary time zones are mapped before each use.
+I added many time-zones to lighten any future workload. It is important to ensure the necessary time-zones are mapped before each use.
 ```python
-  # Define timezone mapping
-station_timezones = {
+  # Define time-zone mapping
+station_time-zones = {
     'AUH': 'Asia/Muscat',
     'AMS': 'Europe/Amsterdam',
     'ATH': 'Europe/Athens',
@@ -237,10 +237,10 @@ station_timezones = {
     # ADD MORE AS NEEDED
 }
 ```
-This segment calculates event duration while handling timezone localization. The result is a localized event start time and the total duration, including pre-event time.
+This segment calculates event duration while handling time-zone localization. The result is a localized event start time and the total duration, including pre-event time.
 ```python
-def convert_to_local(date_str, time_str, timezone):
-    local_tz = pytz.timezone(timezone)
+def convert_to_local(date_str, time_str, time-zone):
+    local_tz = pytz.time-zone(time-zone)
     local_time_str = f"{date_str} {time_str}"
     try:
         local_time = local_tz.localize(datetime.strptime(local_time_str, '%Y-%m-%d %H:%M'))
@@ -249,14 +249,14 @@ def convert_to_local(date_str, time_str, timezone):
         raise
     return local_time
 
-def calculate_event_duration(rep_date, rep_time, dep_time, duration, timezone):
+def calculate_event_duration(rep_date, rep_time, dep_time, duration, time-zone):
     # Combine date and time strings
     rep_datetime_str = f"{rep_date} {rep_time}"
     dep_datetime_str = f"{rep_date} {dep_time}"
     
     # Convert to local time
-    rep_datetime = convert_to_local(rep_date, rep_time, timezone)
-    dep_datetime = convert_to_local(rep_date, dep_time, timezone)
+    rep_datetime = convert_to_local(rep_date, rep_time, time-zone)
+    dep_datetime = convert_to_local(rep_date, dep_time, time-zone)
     
     # Handle crossing midnight
     if dep_datetime < rep_datetime:
@@ -303,7 +303,7 @@ for match in matches:
     # Calculate event start time and duration
     try:
         rep_datetime, total_event_duration = calculate_event_duration(
-            rep_date, rep_time, dep_time, duration, station_timezones[dep_station]
+            rep_date, rep_time, dep_time, duration, station_time-zones[dep_station]
         )
     except ValueError:
         print(f"Skipping event due to parsing error for flight {flight_no}")
@@ -374,15 +374,16 @@ iCal file 'flight_schedule.ics' has been created.
 ### Notes:
 - If your roster lists flights into the next month, it will be processed as if it were in your current month.
 - This script only creates events for the current month, anything outside of that needs to be manually moved.
+- Be sure to map all necessary airport codes before use, I will update this to my own needs and you should do the same.
 
 ## Summary
 I used Python to effectively read a monthly roster PDF file and turn it into an iCalendar file with time-zone support. 
-The code has built-in redundancy such as normalizing all information, and it also includes confirmation and troubleshooting snippets to help identify potential issues.
-As final touches, I included preparation and recovery events to help plan a more structured life for my friend.
+The code has built-in redundancy such as normalizing all information, and it also includes confirmation and troubleshooting snippets to help identify potential issues. As final touches, I included preparation and recovery events to help plan a more structured life for my friend.
 
 # What's next?
 I still have a few ideas that I want to include but it gets exponentially more complicated and tedious so I'm leaving it here for now.
 
-- Scraping and formatting (or simply listing) bus times. I want it to specify the bus that she needs to catch to get her to the airport before her report time. 
+- Scraping and formatting (or simply listing) bus times. I want it to specify the bus that she needs to catch to get her to the airport before her report time.
+- I would also look into making this more acceptable through some sort of GUI application, or website. For now, a quick tutorial will be all.
 
 You can find the complete script [here.](rosterScript.py) <br> I will keep this project up-to-date with my own progress. Feel free to use and change this project to fit your needs.
