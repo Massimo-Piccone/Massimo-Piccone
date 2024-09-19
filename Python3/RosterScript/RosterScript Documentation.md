@@ -146,11 +146,11 @@ Found 12 matches
 ## Step 2. Use this information to make a time-zone-sensitive iCalendar file.
 
 #### 2a) Specify the libraries I need to make this.
-- PyPDF2: for manipulating and extracting data from PDF files.
-- re: regular expressions, enabling pattern matching, searching, splitting, and replacing text within strings.
-- pytz: accurate and cross-platform time-zone calculations
-- datetime: for manipulating dates and times, allowing for operations like formatting, arithmetic, and time-zone handling.
-- icalendar: used to create, parse, and manipulate iCalendar files in a standardized format.
+- `PyPDF2`: for manipulating and extracting data from PDF files.
+- `re`: regular expressions, enabling pattern matching, searching, splitting, and replacing text within strings.
+- `pytz`: accurate and cross-platform time-zone calculations
+- `datetime`: for manipulating dates and times, allowing for operations like formatting, arithmetic, and time-zone handling.
+- `icalendar`: used to create, parse, and manipulate iCalendar files in a standardized format.
 ```python
 import PyPDF2
 import re
