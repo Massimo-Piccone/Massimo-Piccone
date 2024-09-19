@@ -142,7 +142,7 @@ else:
 21, 23:35, DPS, 00:35, DXB, 05:35, 09:00, 399
 24, 08:25, DXB, 09:55, SEA, 13:25, 14:30, 229
 26, 16:00, SEA, 17:15, DXB, 18:30, 14:15, 230
-Found 12 matches
+Found 11 matches
 ```
 ## Step 2. Use this information to make a time-zone-sensitive iCalendar file.
 
@@ -327,7 +327,7 @@ with open('/Users/massimopiccone/Desktop/Flights.ics', 'wb') as f:  # Replace wi
 print("iCal file has been created.")
 ```
 ```
-Found 12 Flights
+Found 11 Flights
 iCal file has been created.
 ```
 <img width="1440" alt="Screenshot 2024-09-18 at 17 22 09" src="https://github.com/user-attachments/assets/6fd552e0-4276-4dc4-82b2-303fd23943ed">
@@ -366,7 +366,7 @@ with open('/Users/massimopiccone/Desktop/Flights.ics', 'wb') as f:  # Replace wi
 print("iCal file has been created.")
 ```
 ```
-Found 12 Flights
+Found 11 Flights
 iCal file has been created.
 ```
 <img width="1536" alt="Screenshot 2024-09-18 at 16 37 05" src="https://github.com/user-attachments/assets/f254e106-e170-4fbb-8e2d-7b4470579278">
@@ -385,6 +385,6 @@ The code has built-in redundancy such as normalizing all information, and it als
 I still have a few ideas that I want to include but it gets exponentially more complicated and tedious so I'm leaving it here for now.
 
 - Scraping and formatting (or simply listing) bus times. I want it to specify the bus that she needs to catch to get her to the airport before her report time.
-- I would also look into making this more acceptable through some sort of GUI application, or website. For now, a quick tutorial will be all.
+- I would also look into making this more acceptable through some sort of GUI application, or website. For now, a [quick tutorial will be all.](https://youtu.be/3E1GoA7wCEk)
 
 You can find the complete script [here.](rosterScript.py) <br> I will keep this project up-to-date with my own progress. Feel free to use and change this project to fit your needs.
