@@ -116,7 +116,7 @@ def calculate_event_duration(rep_date, rep_time, dep_time, duration, timezone):
     return rep_datetime, total_event_duration
 
 # Extract and compact text from PDF
-pdf_path = "/Users/massimopicone/Desktop/Roster.pdf"  # REPLACE WITH PATH TO YOUR PDF
+pdf_path = "/Users/massimopiccone/Desktop/Roster.pdf"  # REPLACE WITH PATH TO YOUR PDF
 pdf_text_content = extract_pdf_text(pdf_path)
 compacted_text = compact_text(pdf_text_content)
 
