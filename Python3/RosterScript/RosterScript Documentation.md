@@ -28,7 +28,8 @@ My vision for this project comprised of 3 distinct components.
 - You will need a way of running a python3 script. <br> To do this I suggest [Jupyter Notebook](https://jupyter.org) or better yet, [Python](https://www.python.org) itself. Follow the provided instructions to install either.
 
 ## Step 1. Scrape the PDF for necessary information.
-> This is the PDF format 
+> This is an example of the PDF format all information presented is purely fictional for educational purposes.
+
 <img width="502" alt="Screenshot 2024-09-18 at 17 30 24" src="https://github.com/user-attachments/assets/ddc2e112-f80c-4e94-8282-dacaba12f2f1">
 
 
