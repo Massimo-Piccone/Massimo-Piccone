@@ -1,6 +1,7 @@
 # Roster PDF to iCalendar Script (Python3)
 > This script works out-of-the-box for Emirates Roster. <br>
-> You can find the complete script [here.](rosterScript.py)
+> You can find the complete script [here.](rosterScript.py) <br>
+> [Here is a quick Tutorial](https://youtu.be/3E1GoA7wCEk) on how to use it - make sure you turn on *captions*.
 ## Objective
 The purpose of this script is to make an easy and reliable way to convert a PDF schedule into iCalendar events.
 I aim to make this as 'open source' and reusable as possible. There are some subscription-based services that can do this for you, but why pay when you can do it yourself?
