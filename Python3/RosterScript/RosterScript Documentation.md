@@ -61,7 +61,7 @@ def compact_text(text_data):
     return compacted_text
 
 # Specify the PDF and extract
-PDF_path = "/path/to/the/file.PDF"  # Replace with the path to your PDF
+PDF_path = "/Users/massimopiccone/Desktop/Roster.pdf"  # Replace with the path to your PDF
 PDF_text_content = extract_PDF_text(PDF_path)
 compacted_text = compact_text(PDF_text_content)
 
@@ -320,14 +320,14 @@ for match in matches:
     cal.add_component(flight_event)
 
 # Write the calendar to a file
-with open('TELL/IT/WHERE/TO/PUT/THE-FILE.ics', 'wb') as f:  # Replace with desired path
+with open('/Users/massimopiccone/Desktop/Flights.ics', 'wb') as f:  # Replace with desired path
     f.write(cal.to_ical())
 
-print("iCal file 'flight_schedule.ics' has been created.")
+print("iCal file has been created.")
 ```
 ```
 Found 12 Flights
-iCal file 'flight_schedule.ics' has been created.
+iCal file has been created.
 ```
 <img width="1440" alt="Screenshot 2024-09-18 at 17 22 09" src="https://github.com/user-attachments/assets/6fd552e0-4276-4dc4-82b2-303fd23943ed">
 <img width="1536" alt="Screenshot 2024-09-18 at 16 27 41" src="https://github.com/user-attachments/assets/7468058b-7cd1-4f0d-8c76-8c34a8b9cd3c">
@@ -359,14 +359,14 @@ I also added a 2-hour recovery period where she is finishing post-flight duties 
     cal.add_component(recover_event)
 
 # Write the calendar to a file
-with open('/MY/EXAMPLE/PATH/TO/OUTPUT.ics', 'wb') as f:  # Replace with desired path
+with open('/Users/massimopiccone/Desktop/Flights.ics', 'wb') as f:  # Replace with desired path
     f.write(cal.to_ical())
 # Print confirmation
-print("iCal file 'flight_schedule.ics' has been created.")
+print("iCal file has been created.")
 ```
 ```
 Found 12 Flights
-iCal file 'flight_schedule.ics' has been created.
+iCal file has been created.
 ```
 <img width="1536" alt="Screenshot 2024-09-18 at 16 37 05" src="https://github.com/user-attachments/assets/f254e106-e170-4fbb-8e2d-7b4470579278">
 <img width="1536" alt="Screenshot 2024-09-18 at 16 34 50" src="https://github.com/user-attachments/assets/15c5f295-e3cd-462d-9d8d-1d94786fd4b9">
