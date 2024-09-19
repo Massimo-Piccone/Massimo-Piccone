@@ -115,6 +115,11 @@ def calculate_event_duration(rep_date, rep_time, dep_time, duration, timezone):
     total_event_duration = event_duration + timedelta(seconds=pre_event_duration)
     return rep_datetime, total_event_duration
 
+
+# * Assuming the PDF is still in your downloads *
+# for windows = C:\users\YOUR NAME\downloads\YOUR-ROSTER.pdf
+# for mac = /Users/USERNAME/Downloads/YOUR-ROSTER.pdf
+
 # Extract and compact text from PDF
 pdf_path = "/Users/massimopiccone/Desktop/Roster.pdf"  # REPLACE WITH PATH TO YOUR PDF
 pdf_text_content = extract_pdf_text(pdf_path)
@@ -182,10 +187,17 @@ for match in matches:
     cal.add_component(recover_event)
 
 # Write the calendar to a file
+# for windows = "C:\users\YOUR NAME\desktop\Flights.pdf"
+# for mac = /Users/USERNAME/Desktop/Flights.pdf
 with open('/Users/massimopiccone/Desktop/Flights.ics', 'wb') as f:  # REPLACE WITH PATH TO DESIRED OUTPUT FOLDER AND /FILE NAME.ICS
     f.write(cal.to_ical())
 
 print("iCal file has been created.")
 
-# Paste this command into your terminal to run the script on Mac:
-# python3 /Users/YOURUSERNAME/Desktop/rosterScript.py
+# * Assuming the script is still in your downloads *
+# Paste this command into your terminal to run the script:
+
+# for mac = python3 /Users/YOURUSERNAME/Downloads/rosterScript.py
+
+# for windows = "cd \users\YOUR NAME\downloads"
+# then = "python rosterScript.py"
