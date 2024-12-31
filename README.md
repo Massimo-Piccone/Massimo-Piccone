@@ -43,6 +43,7 @@ I believe that real-world experience combined with dedicated, continuous learnin
     <img src="https://img.shields.io/badge/-SQL-00758F?&style=for-the-badge&logo=Microsoft-SQL-Server&logoColor=white" />
 </div>
 
+
 ## Certifications
 <div>
 <a href="https://coursera.org/verify/professional-cert/9HTQ7ACNVBBV" target="_blank">
@@ -51,6 +52,13 @@ I believe that real-world experience combined with dedicated, continuous learnin
 <a href="https://www.isc2.org/Certifications/CC" target="_blank">
   <img src="https://img.shields.io/badge/-ISC2%20CC%20Certificate-00AAFF?&style=for-the-badge&logo=isc2&logoColor=white" alt="ISC2 Certified in Cybersecurity (CC)" />
 </a>
+<a href="https://u.cisco.com/my-score-report/complete-certificate?type=path" target="_blank">
+  <img src="https://img.shields.io/badge/-CBROPS%20Fundamentals-90EE90?&style=for-the-badge&logo=cisco&logoColor=white" alt="CBROPS Fundamentals Certification" />
+</a>
+<a href="https://drive.google.com/file/d/1HIyFsXOG1DmlZfgHJUFnrqylQoKtZnq3/view?usp=sharing" target="_blank">
+  <img src="https://img.shields.io/badge/-SYO701%20Sec%2B-FF0000?&style=for-the-badge&logo=comptia&logoColor=white" alt="SYO701 Sec+ Certification" />
+</a>
+
 </div>
 
 ## Projects
@@ -66,9 +74,9 @@ I believe that real-world experience combined with dedicated, continuous learnin
 
 ## What's Next?
 
-I am pursuing CompTIA [Security+](https://www.comptia.org/certifications/security) and [CySA+](https://www.comptia.org/certifications/cybersecurity-analyst) Certifications, along with CISCO [CyberOps Associate](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/cyberops/cyberops-associate/index.html) certification, which I plan to achieve by 2025.
+I am currently pursuing [Cisco Certified CyberOps Associate](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/cyberops/cyberops-associate/index.html), [Microsoft Certified: Azure Security Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/?practice-assessment-type=certificationhttps://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/), [Google Professional Cloud Security Engineer](https://cloud.google.com/learn/certification/cloud-security-engineer), [Certified Information Systems Auditor (CISA)](https://www.isaca.org/credentialing/cisa/cisa-exam-content-outline), and [Certified Cloud Security Professional (CCSP)](https://www.isc2.org/certifications/ccsp/ccsp-certification-exam-outline). I am on track to achieve this in 2025.
 
-Currently, I'm engaged in various Cybersecurity missions like [OverTheWire](https://overthewire.org/wargames/), [TryHackMe](https://tryhackme.com), [HackThisSite](https://hackthissite.org), and [HackerOne](https://www.hackerone.com), with plans to expand my portfolio soon. As my portfolio is always evolving with new skills and projects, I encourage you to check back regularly for updates. I'll be continuously adding fresh content and showcasing my latest achievements. Thank you for visiting, and I look forward to sharing more with you in the future!
+I enjoy staying engaged with various Cybersecurity missions such as [OverTheWire](https://overthewire.org/wargames/), [TryHackMe](https://tryhackme.com), and [HackerOne](https://www.hackerone.com), with plans to expand my portfolio soon! As my portfolio is always evolving with new skills and projects, I encourage you to check back regularly for updates. I'll be continuously adding fresh content and showcasing my latest achievements. Thank you for visiting, and I look forward to sharing more with you in the future!
 
 <a href="https://www.linkedin.com/in/massimo-piccone-401164121" target="_blank">
   <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?&style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn Profile" />
