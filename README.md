@@ -46,13 +46,13 @@ I believe that real-world experience combined with dedicated, continuous learnin
 
 ## Certifications
 <div>
-<a href="https://coursera.org/verify/professional-cert/9HTQ7ACNVBBV" target="_blank">
+<a href="https://drive.google.com/file/d/1wKRBPcf4z3MMYBy6nBINWcTsuroRpRv-/view?usp=sharing" target="_blank">
   <img src="https://img.shields.io/badge/-Google%20Cybersecurity%20-4285F4?&style=for-the-badge&logo=google&logoColor=white" alt="Google Cybersecurity Certificate" />
 </a>
-<a href="https://www.isc2.org/Certifications/CC" target="_blank">
+<a href="https://drive.google.com/file/d/1u8NikSCRAZhL3s6YGXEj_MGgEgDOKajo/view?usp=sharing" target="_blank">
   <img src="https://img.shields.io/badge/-ISC2%20CC%20Certificate-00AAFF?&style=for-the-badge&logo=isc2&logoColor=white" alt="ISC2 Certified in Cybersecurity (CC)" />
 </a>
-<a href="https://u.cisco.com/my-score-report/complete-certificate?type=path" target="_blank">
+<a href="https://drive.google.com/file/d/15_9M6l7i0F0V4qc_s43ePtmbWR-AM_4B/view?usp=sharing" target="_blank">
   <img src="https://img.shields.io/badge/-CBROPS%20Fundamentals-90EE90?&style=for-the-badge&logo=cisco&logoColor=white" alt="CBROPS Fundamentals Certification" />
 </a>
 <a href="https://drive.google.com/file/d/1HIyFsXOG1DmlZfgHJUFnrqylQoKtZnq3/view?usp=sharing" target="_blank">
