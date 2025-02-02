@@ -58,6 +58,9 @@ I believe that real-world experience combined with dedicated, continuous learnin
 <a href="https://drive.google.com/file/d/1HIyFsXOG1DmlZfgHJUFnrqylQoKtZnq3/view?usp=sharing" target="_blank">
   <img src="https://img.shields.io/badge/-SYO701%20Sec%2B-FF0000?&style=for-the-badge&logo=comptia&logoColor=white" alt="SYO701 Sec+ Certification" />
 </a>
+<a href="https://drive.google.com/file/d/1HIyFsXOG1DmlZfgHJUFnrqylQoKtZnq3/view?usp=sharing" target="_blank">
+  <img alt="Cisco Certified Cybersecurity Associate Certification" src="https://img.shields.io/badge/CISCO-CBROPS-dd?style=for-the-badge&logo=Cisco&logoColor=White" />
+</a>
 
 </div>
 
@@ -74,7 +77,7 @@ I believe that real-world experience combined with dedicated, continuous learnin
 
 ## What's Next?
 
-I am currently pursuing [Cisco Certified CyberOps Associate](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/cyberops/cyberops-associate/index.html), [Microsoft Certified: Azure Security Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/?practice-assessment-type=certificationhttps://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/), [Google Professional Cloud Security Engineer](https://cloud.google.com/learn/certification/cloud-security-engineer), [Certified Information Systems Auditor (CISA)](https://www.isaca.org/credentialing/cisa/cisa-exam-content-outline), and [Certified Cloud Security Professional (CCSP)](https://www.isc2.org/certifications/ccsp/ccsp-certification-exam-outline). I am on track to achieve this in 2025.
+I am currently pursuing [Microsoft Certified: Azure Security Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/?practice-assessment-type=certificationhttps://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/), [Google Professional Cloud Security Engineer](https://cloud.google.com/learn/certification/cloud-security-engineer), [Certified Information Systems Auditor (CISA)](https://www.isaca.org/credentialing/cisa/cisa-exam-content-outline), and [Certified Cloud Security Professional (CCSP)](https://www.isc2.org/certifications/ccsp/ccsp-certification-exam-outline). I am on track to achieve this in 2025.
 
 I enjoy staying engaged with various Cybersecurity missions such as [OverTheWire](https://overthewire.org/wargames/), [TryHackMe](https://tryhackme.com), and [HackerOne](https://www.hackerone.com), with plans to expand my portfolio soon! As my portfolio is always evolving with new skills and projects, I encourage you to check back regularly for updates. I'll be continuously adding fresh content and showcasing my latest achievements. Thank you for visiting, and I look forward to sharing more with you in the future!
 
