@@ -58,7 +58,7 @@ I believe that real-world experience combined with dedicated, continuous learnin
 <a href="https://drive.google.com/file/d/1HIyFsXOG1DmlZfgHJUFnrqylQoKtZnq3/view?usp=sharing" target="_blank">
   <img src="https://img.shields.io/badge/-SYO701%20Sec%2B-FF0000?&style=for-the-badge&logo=comptia&logoColor=white" alt="SYO701 Sec+ Certification" />
 </a>
-<a href="https://drive.google.com/file/d/1HIyFsXOG1DmlZfgHJUFnrqylQoKtZnq3/view?usp=sharing" target="_blank">
+<a href="https://drive.google.com/file/d/1WBFw0KIuLbgWQSmCg1LxmVB-BBUrN9Oe/view?usp=sharing" target="_blank">
   <img alt="Cisco Certified Cybersecurity Associate Certification" src="https://img.shields.io/badge/CISCO-CBROPS-dd?style=for-the-badge&logo=Cisco&logoColor=White" />
 </a>
 
