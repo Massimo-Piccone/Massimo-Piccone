@@ -34,7 +34,7 @@ My vision for this project comprised of 3 distinct components.
 <img width="502" alt="Screenshot 2024-09-18 at 17 30 24" src="https://github.com/user-attachments/assets/ddc2e112-f80c-4e94-8282-dacaba12f2f1">
 
 
-### 1a. Extract and standardize the information.
+### 1a. Parsing and normalizing the information.
 I used PyPDF2 to extract and regulate the information on the PDF. I recommend following these steps to ensure the extraction is working properly on your PDF. Simply replace the complete path to your PDF file to begin.
 ```python
 import PyPDF2
