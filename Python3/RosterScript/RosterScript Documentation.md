@@ -26,7 +26,7 @@ My vision for this project comprised of 3 distinct components.
 - Duration of flight.
 
 **Python3**
-- You will need a way of running a python3 script. <br> To do this I suggest [Jupyter Notebook](https://jupyter.org) or better yet, [Python](https://www.python.org) itself. Follow the provided instructions to install either.
+- You will need a way of running a python3 script. <br> To do this I suggest [Jupyter Notebook](https://jupyter.org) or [Python](https://www.python.org) itself. Follow the provided instructions to install either.
 
 ## Step 1. Scrape the PDF for necessary information.
 > This is an example of the PDF format all information presented is purely fictional for educational purposes.
