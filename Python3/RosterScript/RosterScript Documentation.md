@@ -373,7 +373,6 @@ iCal file has been created.
 <img width="1536" alt="Screenshot 2024-09-18 at 16 34 50" src="https://github.com/user-attachments/assets/15c5f295-e3cd-462d-9d8d-1d94786fd4b9">
 
 ### Notes:
-- If your roster lists flights into the next month, it will be processed as if it were in your current month.
 - This script only creates events for the current month, anything outside of that needs to be manually moved.
 - Be sure to map all necessary airport codes before use, I will update this to my own needs and you should do the same.
 
