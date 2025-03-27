@@ -2,7 +2,7 @@
 > Use Bash and Swift to mass format Assets and Markdown files for GitHub Syntax </br>
 
 ## Objective
-This was not initially intended to be a project. I created this system during the development of my Wireshark analysis project. My primary objective is to minimize repetition and consistently and enhance efficiency. I have many unuploaded projects in this format, so I made effort to simplify and ensure the reliability of these bulk operations. The process was tedious but rewarding. I have significantly benefited from this project and hope that others can as well. 
+This was not initially intended to be a project. I created this system during the development of my Wireshark analysis project. My primary objective is to minimize repetition and consistently and enhance efficiency. I have many unuploaded projects in this format, so I made the effort to simplify and ensure the reliability of these bulk operations. The process was tedious but rewarding. I have significantly benefited from this project and hope that others can as well. 
 
 ## Strategy  
 This task is quite surgical, as syntax, filenames, and paths are invalid if they are not exact. </br>
