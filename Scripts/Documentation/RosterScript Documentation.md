@@ -379,4 +379,4 @@ I still have a few ideas that I want to include but it gets exponentially more c
 
 - Scraping and formatting (or simply listing) bus times. I want it to specify the bus that she needs to catch to get her to the airport before her report time. 
 
-You can find the complete script [here.](rosterScript.py) <br> I will keep this project up-to-date with my own progress. Feel free to use and change this project to fit your needs.
+You can find the complete script [here.](/Scripts/Python/rosterScript.py) <br> I will keep this project up-to-date with my own progress. Feel free to use and change this project to fit your needs.
