@@ -270,8 +270,6 @@ This will convert all references within the *.md files in the same directory as 
 ```
 ### `macSS->Git.swift`
 ```swift
-// Reformat obsidian.md image refrences to work on GitHub.
-
 import Foundation
 
 let currentDirectory = FileManager.default.currentDirectoryPath
@@ -298,8 +296,8 @@ for markdownFile in markdownFiles {
         var content = try String(contentsOfFile: markdownFile, encoding: .utf8)
         var count = 1
 
-        // Regular expression pattern to match MacBook's screenshot format.
-        let pattern = #"!\[\[(Screenshot[^\]]+\.png)\]\]"#
+        // Regular expression pattern to match any PNG image filename inside ![[...]]
+        let pattern = #"!\[\[([^\]]+\.png)\]\]"#
         let regex = try NSRegularExpression(pattern: pattern, options: [])
 
         // Find all matches
@@ -315,8 +313,8 @@ for markdownFile in markdownFiles {
                 // Create the replacement string
                 let replacement = "![\(count)](/Wireshark/.assets/\(safeFilename))"
                
-// Instead of /Wireshark/.assets/                           ^
-// You Can Modify this to your "/Local-GitHub/Assets-Path/" |
+//                                                    ^
+// You Can Modify this to your local /.assets/ folder |
                 
                 // Replace in content
                 if let matchRange = Range(match.range, in: content) {
@@ -343,8 +341,8 @@ print("Done.")
 @Massimo [PROJECT] % mkdir Copy
 @Massimo [PROJECT] % cp *.md Copy
 @Massimo [PROJECT] % cd Copy
-@Massimo Copy % chmod +x macSS->Git.swift
-@Massimo Copy % swift macSS->Git.swift
+@Massimo Copy % chmod +x macSS-\>Git.swift
+@Massimo Copy % swift macSS-\>Git.swift
 Updated: /Users/massimopiccone/[PROJECT]/Copy/Traffic Analysis with Wireshark.md
 Updated: /Users/massimopiccone/[PROJECT]/Copy/Other Malicious Traffic.md
 Updated: /Users/massimopiccone/[PROJECT]/Copy/Examples of Non-Malicious Activity.md
