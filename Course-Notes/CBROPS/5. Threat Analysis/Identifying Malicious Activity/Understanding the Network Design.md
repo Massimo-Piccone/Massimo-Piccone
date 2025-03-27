@@ -1,0 +1,11 @@
+- Network Topology Understanding: SOC analysts need to understand the network layout, including critical assets and ingress/egress points.
+- Obtaining Network Topology Map: Analysts should obtain a network topology map identifying all network-connected devices.
+- Vulnerability Assessment: Analysts can inquire about obtaining a vulnerability assessment or conducting their own scan if one is not available.
+- Network Inventory Request: Request a list of all network-based appliances, including routers, firewalls, switches, and attached storage devices.
+- Critical System Inventory Request: Request a report providing the location and identity of critical Windows/Linux host systems.
+- Asset Categorization: Categorizing network assets based on priority levels (critical, important, sensitive) to prioritize threat responses.
+- Threat Prioritization: Prioritizing threat responses based on the location and nature of the asset, with higher priority for internal assets and financial assets.
+- Example Scenario: A compromised web server in the DMZ poses a lower risk than a compromised internal Windows host in a sensitive department like Accounting/Payroll.
+- Asset Categorization: Categorize assets on the network.
+- Device Location Identification: Identify the physical location of security-related devices, including network IPS/IDS, firewall appliances, Active Directory servers, and centralized event logging servers.
+- Data Logging Output Understanding: Understand the data logging output from identified devices.
