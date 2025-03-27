@@ -1,6 +1,4 @@
 ```swift
-// Reformat obsidian.md image refrences to work on GitHub.
-
 import Foundation
 
 let currentDirectory = FileManager.default.currentDirectoryPath
@@ -27,8 +25,8 @@ for markdownFile in markdownFiles {
         var content = try String(contentsOfFile: markdownFile, encoding: .utf8)
         var count = 1
 
-        // Regular expression pattern to match MacBook's screenshot format.
-        let pattern = #"!\[\[(Screenshot[^\]]+\.png)\]\]"#
+        // Regular expression pattern to match any PNG image filename inside ![[...]]
+        let pattern = #"!\[\[([^\]]+\.png)\]\]"#
         let regex = try NSRegularExpression(pattern: pattern, options: [])
 
         // Find all matches
@@ -44,8 +42,8 @@ for markdownFile in markdownFiles {
                 // Create the replacement string
                 let replacement = "![\(count)](/Wireshark/.assets/\(safeFilename))"
                
-// Instead of /Wireshark/.assets/                           ^
-// You Can Modify this to your "/Local-GitHub/Assets-Path/" |
+//                                                    ^
+// You Can Modify this to your local /.assets/ folder |
                 
                 // Replace in content
                 if let matchRange = Range(match.range, in: content) {
