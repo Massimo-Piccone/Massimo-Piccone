@@ -1,5 +1,6 @@
 # Obsidian to GitHub Formatting Process
-> Use Bash and Swift to mass format Assets and Markdown files for GitHub Syntax </br>
+> Use Bash and Swift to Mass Format Both Assets, and Obsidian Markdown Files for GitHub Reference Syntax </br>
+> ![[Screenshot 2025-03-24 at 15.36.15]] -> ![\](/Project/Folder/Screenshot_2025-03-24_at_15.36.15)
 
 ## Objective
 This was not initially intended to be a project. I created this system during the development of my Wireshark analysis project. My primary objective is to minimize repetition and consistently and enhance efficiency. I have many unuploaded projects in this format, so I made the effort to simplify and ensure the reliability of these bulk operations. The process was tedious but rewarding. I have significantly benefited from this project and hope that others can as well. 
