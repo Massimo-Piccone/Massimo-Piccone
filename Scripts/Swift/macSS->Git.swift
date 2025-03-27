@@ -1,4 +1,3 @@
-```swift
 import Foundation
 
 let currentDirectory = FileManager.default.currentDirectoryPath
@@ -65,4 +64,4 @@ for markdownFile in markdownFiles {
 }
 
 print("Done.")
-```
+
