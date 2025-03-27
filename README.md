@@ -9,7 +9,7 @@ I believe that real-world experience combined with dedicated, continuous learnin
 
 ## Certifications
 
-<div style="display: flex; gap: 3px;">
+<div style="display: flex; gap: 5px;">
 <a href="https://drive.google.com/file/d/1HIyFsXOG1DmlZfgHJUFnrqylQoKtZnq3/view?usp=sharing"><img src="https://img.shields.io/badge/-SYO701%20Sec%2B-FF0000?&style=for-the-badge&logo=comptia&logoColor=white" alt="SEC+ SYO701" style="border:0; height:28px;" /></a>
 <a href="https://drive.google.com/file/d/1WBFw0KIuLbgWQSmCg1LxmVB-BBUrN9Oe/view?usp=sharing"><img src="https://img.shields.io/badge/CISCO-CBROPS-dd?style=for-the-badge&logo=Cisco&logoColor=White" alt="Cisco CBROPS" style="border:0; height:28px;" /></a>
 <a href="https://drive.google.com/file/d/15_9M6l7i0F0V4qc_s43ePtmbWR-AM_4B/view?usp=sharing"><img src="https://img.shields.io/badge/-CBROPS%20Fundamentals-90EE90?&style=for-the-badge&logo=cisco&logoColor=white" alt="CBROPS Fundamentals" style="border:0; height:28px;" /></a>
