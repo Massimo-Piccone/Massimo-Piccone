@@ -192,6 +192,10 @@ This is important as GitHub won’t process the image references correctly if th
 
 From the new directory, you can now use `noSpaceName.sh`.  </br>
 
+> Hindsight: </br>
+> I believe you could skip this step and modify the Swift script to change spaces to '%20' instead of underscores </br>
+I haven't tested this though. I'm keeping this `noSpaceName.sh` in the final cut because it is still a powerful tool.
+
 ### `noSpaceName.sh`
 ```bash
 #!/bin/bash
